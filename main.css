@@ -1,0 +1,18 @@
+.elementos li {
+    display: none;
+}
+
+.elementos li.d-block {
+    display: block;
+}
+
+.paginator-container {
+    display: flex;
+    justify-content: center;
+}
+
+.paginator-container>* {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
