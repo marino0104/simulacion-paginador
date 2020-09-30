@@ -1,6 +1,7 @@
-$(document).ready(function() {
-    paginatorInitialize(4);
-})
+window.onload = function() {
+    paginatorInitialize(4) //cargo la función y le paso como parámetro el número de items que quiero mostrar;
+}
+
 
 function paginatorInitialize(itemsPerPage) {
     // inicializo los items que se van a mostrar
